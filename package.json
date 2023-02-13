@@ -1,0 +1,19 @@
+{
+  "name": "learning-hygen",
+  "version": "1.0.0",
+  "description": "learning auto component generate by hygen",
+  "main": "index.ts",
+  "repository": "git@github.com:daisuke0715/learning-hygen.git",
+  "author": "Daisuke Kawamura",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "gen:component": "hygen component new"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "hygen": "^6.2.11"
+  }
+}
